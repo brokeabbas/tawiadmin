@@ -1,12 +1,37 @@
-# React + Vite
+# TAWI Administration Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The administrative control-panel frontend for TAWI, a field-operations platform designed around agricultural agents, farms, locations, cooperatives, and verification workflows.
 
-Currently, two official plugins are available:
+**Live interface:** [tawiadmin.vercel.app](https://tawiadmin.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Programme website:** [fics.com.ng](https://fics.com.ng)
 
-## Expanding the ESLint configuration
+## Responsibilities covered
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Portfolio-wide operational insights and KPI ranges
+- Agent directory, status monitoring, and coverage views
+- Farm, location, and cooperative management screens
+- Verification queues and administrative actions
+- Activity feeds and operational mapping
+- Responsive navigation for dense control-panel workflows
+
+## Stack
+
+React 19, TypeScript, React Router, Leaflet, React Flow, Framer Motion, Tailwind CSS and Vite.
+
+## Run locally
+
+```bash
+npm ci
+npm run dev
+```
+
+Create a production build with `npm run build`.
+
+## Architecture note
+
+This repository contains the public administration frontend. Several screens currently use representative data so the interface can be reviewed independently of protected production services and records.
+
+## Authorship
+
+Designed and built independently by Yakubu Abbas Yakubu as part of the wider TAWI/FICS platform.
